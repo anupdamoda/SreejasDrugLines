@@ -745,8 +745,9 @@ div.faqCategory.Academy:hover .AcademyCategorydropup{
   display: none;
 }
 
-.navbar.navbar-expand-sm.bg-dark{
+.navbar.navbar-custom{
   position: relative;
+  backgroundcolor: rgb(0, 0, 77);
 }
 
 body > center:nth-child(8){
@@ -759,6 +760,11 @@ footer {
     height: 200px;
     margin-top: -1000px;
     margin-bottom: -1000px;
+}
+
+body > center:nth-child(9) > nav > div > ul > center > li > a > span
+{
+	float: right;
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
