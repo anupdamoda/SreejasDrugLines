@@ -97,8 +97,8 @@ padding: 0.01px;
 float: left;
 margin-left: 5px;
 margin-bottom: 40px;
-width: 120px;
-height: 120px;
+width: 140px;
+height: 140px;
 }
 
 
@@ -470,9 +470,9 @@ color: #000000;
 
 #MainPageText
 {
-  color: #ffffff;
+  color: rgb(52, 183, 235);
   font-size: 75px;
-  text-shadow:15px 5px 10px black;
+  text-shadow:15px 5px 10px rgb(52, 183, 235);;
    font-weight: 400;
    font-family: 'Comfortaa';
 }
@@ -554,7 +554,79 @@ hr {
 
 .carousel-item.active:hover .overlay {
   width: 50%;
-  left: 0;
+  left:0;
+}
+
+#himalaya{
+  display: inline-block;
+  margin-left: 50px;
+  float: left;
+  font-family: Comfortaa;
+}
+
+#himalaya > span > img{
+   height: 50px;
+  width: 150px;
+  box-shadow: 2px 2px 5px;
+}
+
+#himalaya > span:nth-child(7) > img{
+   height: 100px;
+  width: 150px;
+}
+
+#himalaya > span:nth-child(10) > img{
+  height: 75px;
+  width: 150px;
+}
+
+#himalaya > span:nth-child(13) > img{
+  height: 100px;
+  width: 150px;
+}
+
+#himalayas{
+  display: inline-block;
+  float: right;
+  position: relative;
+
+}
+
+#himalayas > span > img{
+   height: 50px;
+  width: 150px;
+  box-shadow: 2px 2px 5px;
+}
+
+#himalayas > span:nth-child(7) > img{
+   height: 100px;
+  width: 150px;
+}
+
+#himalayas > span:nth-child(10) > img{
+  height: 75px;
+  width: 150px;
+}
+
+#himalayas > span:nth-child(13) > img{
+  height: 100px;
+  width: 150px;
+}
+
+#carouselslides{
+  display: inline-block;
+}
+
+.carousel-inner{
+  display: inline-block;
+  width: 80%;
+}
+
+.carousel-item{
+  margin-left: 5px;
+    width:1000px;
+  height:600px;
+  top: -30px;
 }
 
 .text {
