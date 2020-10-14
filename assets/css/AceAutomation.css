@@ -1,6 +1,6 @@
 body
 {
-	background-image: url('../images/Background-17.jpg');
+  background-image: url('../images/Background-17.jpg');
 }
 
 .navbar
@@ -108,14 +108,14 @@ height: 140px;
 
 #Shoethumbnail
 {
-	box-shadow: 11px 10px 29px 0px rgba(0,0,0,1);
-	border-radius: 5px;
+  box-shadow: 11px 10px 29px 0px rgba(0,0,0,1);
+  border-radius: 5px;
 }
 
 #ShoeType
 {
-	color: #232323;
-	font-weight: bold;
+  color: #232323;
+  font-weight: bold;
   font-family:'Comfortaa';
 
 }
@@ -135,7 +135,7 @@ height: 140px;
 
 .btn-info
 {
-margin-right: 50px;	
+margin-right: 50px; 
 font-family: 'Comfortaa';font-size: 16px;
 }
 
@@ -150,191 +150,6 @@ visibility: hidden;
 .btn-primary
 {
 font-family: 'Comfortaa';font-size: 16px;
-}
-
-.jumbotron
-{
-background-image: url("../images/AppleLaptop.jpg");
-background-repeat: repeat;
-background-position: top;
-height: 1200px;
-text-align: left;
-}
-
-.ContactUs.jumbotron
-{
-background-image: url("../images/ContactUs/Pier.jpg");
-background-repeat: repeat;
-background-position: top;
-height: 800px;
-text-align: left;
-}
-
-.WebsiteSolution.jumbotron
-{
-background-image: url("../images/WebsiteSolutions/Rocks.jpg");
-background-repeat: repeat;
-background-position: top;
-height: 1100px;
-text-align: left;
-}
-
-.WebsiteServices.jumbotron
-{
-background-image: url("../images/WebsiteServices/NewyorkRoad.jpg");
-background-repeat: repeat;
-background-size: 100% 100%;
-background-position: top;
-height: 1200px;
-text-align: left;
-}
-
-.faq.jumbotron
-{
-background-image: url("../images/faq.jpg");
-background-repeat: repeat;
-background-position: top;
-height: 1200px;
-text-align: left;
-}
-
-.ContactUsDetails
-{
-  position: absolute;
-  padding-top: 100px;
-  font-size: 28px;
-  text-align: left;
-  color: black;
-  padding-left: 580px;
-  font-family: 'Comfortaa';
-  text-shadow: 0px 1px 1px;text-shadow: 0px 1px 10px;
-}
-
-div.WebsiteDetails
-{
-  position: absolute;
-  padding-top: 1px;
-  font-size: 25px;
-  text-align: left;
-  color: white;
-  padding-right: 580px;
-  padding-left: 20px;
-  font-family: 'Comfortaa';
-  text-shadow: 0px 1px 1px;text-shadow: 0px 1px 10px;
-  background: rgba(255, 255, 255, 0.4);
-  border-radius: 10px
-}
-
-#ServicesSnippets {
-  padding-left: -2px;
-  padding-left: -2px;
-  padding-top: -2px;
-  padding-bottom: -2px;
-   background: rgba(255, 255, 255, 0.3);
-  color: black;
-  border-radius: 4px;
-}
-
-#ServicesSnippets > p{
-  font-family: 'Comfortaa';
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 7px;
-  padding-left: 1px;
-}
-
-div.WebsiteDetails p {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
-
-body > div.jumbotron.WebsiteSolution > div > ul{
-font-weight: bold;
-  color: #000000;
-}
-
-.fa-angle-right{
-color: red;
-}
-
-.fa-facebook-official{
-color: #000000;
-}
-.fa-forward{
-color: #000000;
-}
-.fa-mobile{
-color: #000000;
-}
-.fa-pie-chart{
-color: #000000;
-}
-.fa-search{
-color: #000000;
-}
-
-.fa-angle-right.contact{
-color: rgb(75,0,130);
-}
-
-.bottomright{
-  position: absolute;
-  padding-bottom: 5px;
-  font-size: 25px;
-  text-align: left;
-  color: white;
-}
-
-.bottom{
-  position: absolute;
-  padding-top: 750px;
-  font-size: 25px;
-  font-family: 'Comfortaa';
-  color: black;
-}
-
-.AcademyLink{
-  position: absolute;
-  padding-top: 1050px;
-  font-size: 25px;
-  font-family: 'Comfortaa';
-  color: black;
-}
-
-#Testimonials{
-  text-transform: uppercase;
-  text-decoration: blink;
-}
-
-.form-group
-{
-width: 350px;
-color: #ffffff;
-text-align: left;
-font-family: 'Comfortaa';font-size: 16px;
-font-weight: 900;
-}
-
-#usr
-{
-font-size: 16px;
-color: #000000;
-}
-
-#menuToggle
-{
-  display: block;
-  border-radius: 25px;
-  position: relative;
-  top: 10px;
-  right: 15px;
-  float: left;
-  margin-left: 60px;
-  
-  z-index: 1;
-  
-  -webkit-user-select: none;
-  user-select: none;
 }
 
 #menuToggle a
@@ -558,6 +373,7 @@ hr {
 
 .carousel-item.active:hover .overlay {
   width: 50%;
+  height: auto;
   left:0;
 }
 
@@ -652,12 +468,7 @@ hr {
   width: 80%;
 }
 
-.carousel-item{
-  margin-left: 5px;
-    width:1000px;
-  height:850px;
-  top: -30px;
-}
+
 
 .text {
   color: white;
@@ -866,7 +677,7 @@ footer {
 
 body > center:nth-child(9) > nav > div > ul > center > li > a > span
 {
-	float: right;
+  float: right;
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
@@ -962,121 +773,33 @@ body > center:nth-child(9) > nav > div > ul > center > li > a > span
   display: none;
 }
 
-#Snippetthumbnail {
 
-}
-
-.text{
-font-size: 20px;
-}
-.text2{
-font-size: 20px;
-}
-.text4{
-font-size: 20px;
+#carouselExampleIndicators{
+display: block;
 }
 
-.faqTitle{
-margin-left: 30px;
-font-size:30px;
-position: center;
-font-family: 'Comfortaa';
-font-weight: bold;
+
+#CopyrightFooter{
+  display: block;
 }
 
-.faqQuestions{
-  font-size: 15px;
-  color: #696969;
-}
-.plusCircle{
-  color: #323232;
-  font-size: 15px;
-  font-weight: lighter;
-  padding-right: 30px;
-  float: right;
+.carousel-inner{
+  width: 100%;
+  height: auto;
 }
 
-.cross{
-  color: #323232;
-  font-size: 15px;
-  font-weight: lighter;
-  padding-right: 30px;
-  float: right;
+.carousel-item.active:hover .overlay {
+  width: 100%;
+  height: auto;
 }
 
-.WebCategorydropdown{
-  color: #323232;
-  font-size: 30px;
-  font-weight: lighter;
-  padding-right: 20px;
-  float: right;
+.carousel-item.active{
+  width: 100%;
+  height: auto;
 }
 
-div.WebsiteDetails
-{
-  position: absolute;
-  padding-top: 1px;
-  font-size: 15px;
-  text-align: left;
-  color: white;
-  padding-right: 30px;
-  padding-left: 30px;
-  font-family: 'Comfortaa';
-  text-shadow: 0px 1px 1px;text-shadow: 0px 1px 10px;
-  background: rgba(255, 255, 255, 0.4);
-  border-radius: 10px
-}
-
-.jumbotron.WebsiteSolution > div > ul{
-  font-size: 15px;
-}
-
-.WebCategorydropup{
-  color: #323232;
-  font-size: 30px;
-  font-weight: lighter;
-  padding-right: 20px;
-  float: right;
-}
-
-.AcademyCategorydropdown{
-  color: #323232;
-  font-size: 30px;
-  font-weight: lighter;
-  padding-right: 20px;
-  float: right;
-}
-
-.AcademyCategorydropup{
-  color: #323232;
-  font-size: 30px;
-  font-weight: lighter;
-  padding-right: 20px;
-  float: right;
-}
-
-.faqCategory{
-  color: #323232;
-  font-size: 20px;
-  font-family: 'Comfortaa';
-  font-weight: bold; 
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.faqQuestions{
-  padding-left: 45px;
-  font-family: 'Comfortaa';
-  font-size: 15px;
-  padding-right: 30px;
-  color: #FFDEAD;
-}
-
-.faqAnswers{
-  font-family: 'Comfortaa';
-  font-size: 15px;
-  padding-right: 30px;
-  padding-left: 35px;
+#carouselslides{
+  display: none;
 }
 
 .bottom{
@@ -1085,47 +808,6 @@ div.WebsiteDetails
   font-size: 18px;
   font-family: 'Comfortaa';
   color: black;
-}
-
-.AcademyLink{
-  position: absolute;
-  padding-top: 680px;
-  font-size: 20px;
-  font-family: 'Comfortaa';
-  color: black;
-}
-
-.academyTitle{
-  margin-left: 55px;
-  font-size:30px;
-  position: center;
-  font-family: 'Comfortaa';
-  font-weight: bold;
-  }
-
-.contactTitle{
-  padding-left: 50px;
-  font-size: 30px;
-}
-
-  .ContactUsDetails
-{
-  position: absolute;
-  padding-top: 100px;
-  font-size: 20px;
-  text-align: left;
-  color: #000000;
-  padding-left: 0.05px;
-  font-family: 'Comfortaa';
-}
-
-.faq.jumbotron
-{
-background-image: url("../images/faq.jpg");
-background-repeat: repeat;
-background-position: top;
-height: 1000px;
-text-align: left;
 }
 
 #CopyrightFooter{
