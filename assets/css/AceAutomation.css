@@ -938,10 +938,19 @@ body > center:nth-child(9) > nav > div > ul > center > li > a > span
   width: 50px;
 }
 
+#himalaya{
+  display: none;
+}
+
+#himalayas{
+  display: none;
+}
+
 #ShoePortalTitle > span:nth-child(4){
-  font-size: 11px;
+  font-size: 12px;
   position: relative;
-  text-align: right;
+  text-align: left;
+  line-height: 1.6;
 }
 
 #ShoeSubTitle{
