@@ -373,7 +373,7 @@ hr {
 
 .carousel-item.active:hover .overlay {
   width: 50%;
-  height: auto;
+  height: 600px;
   left:0;
 }
 
@@ -420,7 +420,7 @@ hr {
   display: inline-block;
   float: right;
   position: relative;
-
+  
 }
 
 #himalayas > span > img{
@@ -465,194 +465,11 @@ hr {
 
 .carousel-inner{
   display: inline-block;
-  width: 80%;
+  width: 70%;
 }
 
 
 
-.text {
-  color: white;
-  font-size: 100px;
-  position: absolute;
-  top: 20%;
-  left: 75%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-  font-family: 'Comfortaa';
- 
-}
-
-.text2 {
-  color: white;
-  font-size: 70px;
-  position: absolute;
-  top: 10%;
-  left: 70%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-  font-family: 'Comfortaa'
-}
-
-.text4 {
-  color: #ffffff;
-  font-size: 50px;
-  position: absolute;
-  top: 10%;
-  right: 40%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-  font-family: 'Comfortaa';
-}
-
-.faqTitle{
-margin-left: 100px;
-font-size:30px;
-position: center;
-font-family: 'Comfortaa';
-font-weight: bold;
-}
-
-.academyTitle{
-  margin-left: 120px;
-  font-size:30px;
-  position: center;
-  font-family: 'Comfortaa';
-  font-weight: bold;
-  }
-
-  .contactTitle{
- margin-left: 130px;
-  font-size:30px;
-  position: center;
-  font-family: 'Comfortaa';
-  font-weight: bold;
-  }
-
-.plusCircle{
-  color: #323232;
-  font-size: 25px;
-  font-weight: lighter;
-  padding-right: 155px;
-  float: right;
-}
-
-.cross{
-  color: #323232;
-  font-size: 25px;
-  font-weight: lighter;
-  padding-right: 160px;
-  float: right;
-}
-
-.WebCategorydropdown{
-  color: #323232;
-  font-size: 50px;
-  font-weight: lighter;
-  padding-right: 150px;
-  float: right;
-}
-
-.WebCategorydropup{
-  color: #323232;
-  font-size: 50px;
-  font-weight: lighter;
-  padding-right: 150px;
-  float: right;
-}
-
-.AcademyCategorydropdown{
-  color: #323232;
-  font-size: 50px;
-  font-weight: lighter;
-  padding-right: 150px;
-  float: right;
-}
-
-.AcademyCategorydropup{
-  color: #323232;
-  font-size: 50px;
-  font-weight: lighter;
-  padding-right: 150px;
-  float: right;
-}
-
-.faqCategory{
-  color: white;
-  font-size: 35px;
-  font-family: 'Comfortaa';
-  font-weight: bold; 
-  padding-left: 80px;
-}
-
-div.faqCategory.Website:hover {
-  color: #EFDFBB;
-}
-
-div.faqCategory.Website:hover .WebCategorydropdown{
-  color: #EFDFBB;
-}
-
-div.faqCategory.Website:hover .WebCategorydropup{
-  color: #EFDFBB;
-}
-
-.faqQuestions{
-  padding-left: 80px;
-  font-family: 'Comfortaa';
-  font-size: 30px;
-  color: #FFDEAD;
-}
-
-.faqAnswers{
-  padding-left: 80px;
-  padding-right: 80px;
-  font-family: 'Comfortaa';
-  font-size: 27px;
-  color: white;
-  font-weight: bold;
-}
-
-.faqQuestions:hover {
-  color: #f9f1f1;
-  font-weight: bold;
-}
-
-.faqAnswers:hover {
-  font-weight: bold;
-}
-
-.faqQuestions:hover .fa-plus{
-  color: #f9f1f1;
-}
-
-.faqQuestions:hover .cross{
-  color: #f9f1f1;
-}
-
-div.faqCategory.Academy:hover {
-  color: #EFDFBB;
-}
-
-div.faqCategory.Academy:hover .AcademyCategorydropdown{
-  color: #EFDFBB;
-}
-
-div.faqCategory.Academy:hover .AcademyCategorydropup{
-  color: #EFDFBB;
-}
-
-.faqAnswers{
-  padding-left: 80px;
-  font-family: 'Comfortaa';
-  font-size: 15px;
-  padding-right: 130px;
-}
 
 #CopyrightFooter {
   display: none;
