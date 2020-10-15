@@ -641,5 +641,15 @@ display: block;
 #himalayas{
   display: none;
 }
+}
 
-  }
+@media only screen and (max-width: 812px){
+
+#himalaya{
+  display: none;
+}
+
+#himalayas{
+  display: none;
+}
+}
